@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link href="./assets/logo.png" rel="icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="sidebar-nav">
+                <div class="nav-options">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-options search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="sidebar-library">
+                <div class="lib-icon nav-options">
+                    <div class="options">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="options">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="p1">Create your first playlist</p>
+                        <p class="p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <div class="p1">Let's find some podcasts to follow</div>
+                        <div class="p2">We'll keep you updated on new episodes</div>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="left">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" id="hidden">
+                </div>
+                <div class="right">
+                    <button class="badges right-icon" id="hidden">Explore Premium</button>
+                    <button class="badges right-icon" id="installapp"><i class="fa-regular fa-circle-down dow"></i>Install App</button>
+                    <i class="fa-solid fa-user right-icon" id="user"></i>
+                </div>
+            </div>
+            <div class="cards-all">
+                <div class="cards">
+                    <h2>Recently played</h2>
+                    <div class="big-container">
+                        <div class="container">
+                            <img src="./assets/card1img.jpeg">
+                            <p class="song">Top 50</p>
+                            <p class="description">Global</p>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="cards">
+                    <h2>Try something else</h2>
+                    <div class="big-container">
+                        <div class="container">
+                            <img src="./assets/card2img.jpeg">
+                            <p class="song">Mahiye Jinna So...</p>
+                            <p class="description">Global</p>
+                        </div>
+                        <div class="container">
+                            <img src="./assets/card3img.jpeg">
+                            <p class="song">Mere Pass Tum...</p>
+                            <p class="description">Global</p>
+                        </div>
+                        <div class="container">
+                            <img src="./assets/card4img.jpeg">
+                            <p class="song">Top 50</p>
+                            <p class="description">Global</p>
+                        </div>
+                        <div class="container">
+                            <img src="./assets/card3img.jpeg">
+                            <p class="song">Top 50</p>
+                            <p class="description">Global</p>
+                        </div>
+                        <div class="container">
+                            <img src="./assets/card4img.jpeg">
+                            <p class="song">Top 50</p>
+                            <p class="description">Global</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <h2>Featured Charts</h2>
+                    <div class="big-container">
+                        <div class="container">
+                            <img src="./assets/card5img.jpeg">
+                            <p class="song">Top Songs</p>
+                            <p class="description">Global</p>
+                        </div>
+                        <div class="container">
+                            <img src="./assets/card6img.jpeg">
+                            <p class="song">Top Songs</p>
+                            <p class="description">India</p>
+                        </div>
+                        <div class="container">
+                            <img src="./assets/card5img.jpeg">
+                            <p class="song">Top 50</p>
+                            <p class="description">Global</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="musicbar">
+            <div class="album">
+                <img src="./assets/card1img.jpeg" class="album-cover"></img>
+                <div class="paragraph">
+                    <div class="p1">Top 50 Global</div>
+                    <div class="p2">Global</div>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="player">
+                <div class="buttons">
+                    <img src="./assets/player_icon1.png">
+                    <img src="./assets/player_icon2.png">
+                    <img src="./assets/player_icon3.png" id="main-button">
+                    <img src="./assets/player_icon4.png">
+                    <img src="./assets/player_icon5.png">
+                </div>
+                <div class="tracker">
+                    <span>00:00</span>
+                    <input type="range" min="0" max="100" step="1" class="track">
+                    <span>03:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <span class="material-symbols-outlined controls-i" id="c1">smart_display</span>
+                <span class="material-symbols-outlined controls-i" id="c2">lyrics</span>
+                <span class="material-symbols-outlined controls-i" id="c3">menu_open</span>
+                <span class="material-symbols-outlined controls-i" id="c4">devices_wearables</span>
+                <span class="volume">
+                    <span class="material-symbols-outlined controls-i" id="c5">volume_up</span>
+                    <input type="range" class="range">
+                </span>
+                <span class="material-symbols-outlined controls-i" id="c6">filter_none</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

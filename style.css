@@ -1,0 +1,445 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 19rem;
+    background-color: black;
+}
+
+.main-content {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    overflow: auto;
+}
+
+.musicbar {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    
+}
+
+.sidebar-nav {
+    background-color: #121212;
+    height: 7rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    line-height: 3.12rem;
+}
+
+.nav-options {
+    padding: 0.25rem 0.75rem;
+    font-weight: 600;
+}
+
+.search {
+    opacity: 0.7;
+}
+
+.search:hover {
+    opacity: 1;
+}
+
+.nav-options i {
+    font-size: 1.3rem;
+}
+
+.nav-options a {
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.lib-icon img {
+    height: 1.37rem;
+}
+
+.sidebar-library {
+    padding: 0.5rem 0.75rem;
+    background-color: #121212;
+    height: 100%;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.lib-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    opacity: 0.7;
+}
+
+.options:hover {
+    opacity: 1;
+}
+
+.options i {
+    margin: 0 0.5rem;
+    opacity: 0.7;
+}
+
+.options i:hover {
+    opacity: 1;
+}
+
+.box .p1 {
+    font-size: 1rem;
+}
+
+.box .p2 {
+    font-size: 0.75rem;
+}
+
+.p1 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.p2 {
+    font-size: 0.85rem;
+    font-weight: 500;
+    opacity: 0.85;
+    margin: 0.5rem 0;
+}
+
+.badge {
+    border-radius: 100px;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.badge:hover {
+    transform: scale(1.05);
+}
+
+.box {
+    background-color: #232323;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+}
+
+.sticky-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    z-index: 10;
+}
+
+.badges {
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    border: none;
+}
+
+.badges:hover {
+    transform: scale(1.05);
+}
+
+.right .dow {
+    margin-right: 0.25rem;
+}
+
+#installapp {
+    background-color: black;
+    color: white;
+}
+
+#user {
+    opacity: 0.85;
+}
+
+#user:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.right-icon {
+    margin-left: 0.7rem;
+    font-weight: 600;
+}
+
+.left img {
+    height: 1.4rem;
+    padding: 0 0.5rem;
+}
+
+.container {
+    background-color: #23232360;  /* #232323 */
+    height: 245px;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2.5rem;
+    transition: 0.2s linear;
+}
+
+.container:hover {
+    background-color: #232323;
+}
+
+.cards img {
+    height: 150px;
+    width: 150px;
+    border-radius: 0.5rem;
+}
+
+.cards-all {
+    padding: 1.25rem;
+}
+
+h2 {
+    margin: 0 0 1.75rem 0;
+}
+
+.song {
+    font-weight: 600;
+    margin: 1rem 0 0 0.25rem;
+}
+
+.description {
+    font-size: 0.85rem;
+    opacity: 0.75;
+    margin: 0.5rem 0 13.6px 0.25rem;
+}
+
+.big-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    height: 30%;
+    width: 90%;
+    border-top: 2px solid rgba(255, 255, 255, 0.521);
+}
+
+.album {
+    width: 30%;
+}
+
+.player {
+    width: 40%;
+}
+
+.controls {
+    width: 30%;
+}
+
+.buttons img {
+    height: 1rem;
+    padding: 0 1rem;
+    opacity: 0.75;
+}
+
+.buttons img:hover {
+    opacity: 1;
+}
+
+#main-button {
+    height: 2rem;
+    opacity: 1;
+}
+
+#main-button:hover {
+    transform: scale(1.05);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.4rem;
+}
+
+.track {
+    width: 70%;
+}
+
+.tracker {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.4rem;
+}
+
+.track {
+    appearance: none;
+    background-color: transparent;
+}
+
+.track::-webkit-slider-runnable-track {
+    background-color: rgba(255, 255, 255, 0.644);
+    height: 0.20rem;
+    border-radius: 100px;
+}
+
+.track::-webkit-slider-thumb {
+    appearance: none;
+    height: 0.90rem;
+    width: 0.90rem;
+    background-color: rgb(69, 141, 69);
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.tracker span {
+    font-size: 0.75rem;
+    margin: 0 0.5rem;
+}
+
+.album-cover {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 0.25rem;
+    margin-right: 0.75rem;
+}
+
+.album {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.album .paragraph {
+    margin-right: 1.25rem;
+}
+
+.paragraph .p1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.paragraph .p2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 1;
+}
+.p1 {
+    font-size: 0.80rem;
+    margin: 0 0 0.3rem 0 ;
+}
+
+.p2 {
+    font-size: 0.70rem;
+    margin: 0 0 0 0 ;
+}
+
+.album i {
+    opacity: 0.75;
+}
+
+.album i:hover {
+    opacity: 1;
+    font-weight: 500;
+}
+
+.musicbar {
+    padding: 0.5rem;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#c1 {
+    font-size: 1.2rem;
+}
+
+#c2 {
+    font-size: 1.2rem;
+}
+
+#c3 {
+    font-size: 1.2rem;
+}
+
+#c4 {
+    font-size: 1.2rem;
+}
+
+#c5 {
+    font-size: 1.2rem;
+}
+
+#c6 {
+    font-size: 1.2rem;
+}
+
+.range {
+    appearance: none;
+    background-color: transparent;
+}
+
+.volume {
+    display: flex;
+}
+.range::-webkit-slider-runnable-track {
+    background-color: rgba(255, 255, 255, 0.651);
+    height: 0.15rem;
+    border-radius: 100px;
+}
+
+.range::-webkit-slider-thumb {
+    appearance: none;
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: -4.5px;
+}
+
+.controls-i {
+    opacity: 0.75;
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin-left: 0.75rem;
+}
+
+.controls-i:hover {
+    opacity: 1;
+    font-weight: 500;
+    transform: scale(1.02);
+}
+
+@media (max-width:1000px) {
+    #hidden {
+        display: none;
+    }
+}
